@@ -65,4 +65,5 @@ This is a Python-based Library Management System that allows users to manage boo
   return_date = datetime.now() + timedelta(days=20)
   Abdullrahman.return_book("The Godfather", return_date, library)
 
-
+## Contributions
+Feel free to contribute to this project by opening issues and pull requests. Any improvements or bug fixes are welcome!
