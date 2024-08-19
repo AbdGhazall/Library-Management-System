@@ -47,3 +47,22 @@ This is a Python-based Library Management System that allows users to manage boo
 2. **Run the Project**
    ```bash
    python main.py
+
+##Example Usage
+- Adding Books
+  ```bash
+  library.add_book("The Godfather", "Francis Ford Coppola", "1234590", 2)
+  library.add_book("Shutter Island", "Martin Scorsese", "1234591", 1)
+- Adding Users
+  ```bash
+  library.add_user("Abdullrahman", "Admin")
+  library.add_user("Yazan", "Regular")
+- Borrowing Books
+  ```bash
+  library.borrow_book(Abdullrahman, "The Godfather")
+- Returning Books
+  ```bash
+  return_date = datetime.now() + timedelta(days=20)
+  Abdullrahman.return_book("The Godfather", return_date, library)
+
+
