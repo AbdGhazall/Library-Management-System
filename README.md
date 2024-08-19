@@ -42,8 +42,8 @@ This is a Python-based Library Management System that allows users to manage boo
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone <https://github.com/AbdGhazall/PythonProject.git>
+   cd <PythonProject>
 2. **Run the Project**
    ```bash
    python main.py
